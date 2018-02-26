@@ -1,0 +1,5 @@
+set nocompatible
+" Init de pathogen
+call pathogen#infect()
+call pathogen#helptags()
+runtime! config/**/*.vim
