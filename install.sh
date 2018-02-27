@@ -1,6 +1,6 @@
 #!/bin/bash
 cd ..
-cp vimconf/.vim/ .vim
+cp -rp vimconf/.vim/ .vim
 ln -s .vim/vimrc .vimrc
 cd .vim
 git clone https://github.com/tpope/vim-pathogen.git pathogen
