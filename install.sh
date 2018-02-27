@@ -4,9 +4,12 @@ cp vimconf/.vim/ .vim
 ln -s .vim/vimrc .vimrc
 cd .vim
 git clone https://github.com/tpope/vim-pathogen.git pathogen
+mkdir autoload
 cd autoload
 ln -s ../pathogen/autoload/pathogen.vim .
-cd ../bundle
+cd ..
+mkdir bundle
+cd bundle
 echo "installation des packages"
 #liste des plugins à clone
 git clone https://github.com/tpope/vim-fugitive
