@@ -4,8 +4,5 @@ nmap <F8> :TagbarToggle<CR>
 nnoremap <C-x><Right> :w <bar> :bn<CR>
 nnoremap <C-x><Left> :w <bar> :bp<CR>
 map <F7> :NERDTreeToggle<CR>
-let g:ycm_key_list_stop_completion = ['<Tab>']
-let g:UltiSnipsExpandTrigger="<F6>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-
+let g:ycm_key_list_stop_completion = ['<C-Space>']
+let g:UltiSnipsExpandTrigger="<C-k>"
