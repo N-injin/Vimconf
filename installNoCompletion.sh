@@ -1,6 +1,6 @@
 #!/bin/bash
 cd ..
-cp vimconf/.vim/ .vim
+cp -r vimconf/.vim/ .vim
 ln -s .vim/vimrc .vimrc
 cd .vim
 git clone https://github.com/tpope/vim-pathogen.git pathogen
@@ -22,4 +22,6 @@ git clone https://github.com/sirver/ultisnips
 git clone https://github.com/flazz/vim-colorschemes
 git clone https://github.com/raimondi/delimitmate
 git clone https://github.com/lilydjwg/colorizer
+git clone https://github.com/honza/vim-snippets
 echo "Done !"
+

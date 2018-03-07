@@ -22,6 +22,7 @@ git clone https://github.com/sirver/ultisnips
 git clone https://github.com/flazz/vim-colorschemes
 git clone https://github.com/raimondi/delimitmate
 git clone https://github.com/lilydjwg/colorizer
+git clone https://github.com/honza/vim-snippets
 echo "Installation de youcompleteme"
 #you complete me config
 git clone https://github.com/valloric/youcompleteme youcompleteme
