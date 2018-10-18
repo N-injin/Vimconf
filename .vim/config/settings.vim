@@ -7,3 +7,6 @@ nnoremap <C-x><Left> :w <bar> :bp<CR>
 map <F7> :NERDTreeToggle<CR>
 let g:ycm_key_list_stop_completion = ['<Tab>']
 let g:UltiSnipsExpandTrigger="<C-k>"
+set tabstop=4
+set shiftwidth=4
+set expandtab
