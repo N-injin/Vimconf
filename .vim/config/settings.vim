@@ -9,4 +9,5 @@ let g:ycm_key_list_stop_completion = ['<Tab>']
 let g:UltiSnipsExpandTrigger="<C-k>"
 set tabstop=4
 set shiftwidth=4
-set expandtab
+set noexpandtab
+set softtabstop=0
