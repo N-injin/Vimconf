@@ -28,7 +28,7 @@ echo "Installation de youcompleteme"
 git clone https://github.com/valloric/youcompleteme youcompleteme
 cd youcompleteme
 git submodule update --init --recursive
-sudo dnf install automake gcc gcc-c++ kernel-devel cmake
-sudo dnf install python-devel python3-devel
+sudo yum install automake gcc gcc-c++ kernel-devel cmake
+sudo yum install python-devel python3-devel
 ./install.py
 echo "Done !"
