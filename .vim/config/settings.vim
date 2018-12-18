@@ -1,5 +1,23 @@
+"Numbers
 set number
+set relativenumber
+
 syntax on
+set termguicolors
+set mouse=""
+"Scroll offset
+set scrolloff=5
+
+"backups and swap
+"
+set backupdir=/tmp
+set directory=/tmp
+
+"Backspace in insert
+set backspace=indent,eol,start
+
+set autoread
+
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 nmap <F8> :TagbarToggle<CR>
 nnoremap <C-x><Right> :w <bar> :bn<CR>
@@ -11,3 +29,4 @@ set tabstop=4
 set shiftwidth=4
 set noexpandtab
 set softtabstop=0
+set diffopt+=vertical
